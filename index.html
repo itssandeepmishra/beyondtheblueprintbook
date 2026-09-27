@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="paper">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Beyond the Blueprint — Factory Wit &amp; Wisdom</title>
+<meta name="description" content="105 illustrated stories from the shop floor, the corner office and the village — by Girish Narain Mishra. Read the whole book online, track your progress, and test yourself with a quiz on every chapter.">
+<meta name="theme-color" content="#14304e">
+<meta name="color-scheme" content="light dark">
+
+<meta property="og:type" content="book">
+<meta property="og:title" content="Beyond the Blueprint — Factory Wit &amp; Wisdom">
+<meta property="og:description" content="105 stories. 12 themes. A lifetime of shop-floor lessons, laughter and hard-earned wisdom.">
+<meta property="og:image" content="assets/img/og-cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="preload" as="image" href="assets/img/hero.jpg">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- gradient definition used by the score ring -->
+<svg width="0" height="0" aria-hidden="true" style="position:absolute">
+  <defs>
+    <linearGradient id="goldgrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d9a83f"/><stop offset="100%" stop-color="#a8752a"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 5.5v15"/><path d="M8.5 7.5h6M8.5 11h6"/></svg>
+      </span>
+      <span class="brand-txt">
+        <b>Beyond the Blueprint</b>
+        <span>Factory Wit &amp; Wisdom</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#/" data-r="home">Home</a>
+      <a href="#/contents" data-r="contents">Contents</a>
+      <a href="#/read" data-r="read">Read</a>
+      <a href="#/quiz" data-r="quiz">Quiz</a>
+      <a href="#/library" data-r="library">My Shelf</a>
+      <a href="#/author" data-r="author">Author</a>
+      <a href="#/about" data-r="about">About</a>
+    </nav>
+
+    <div class="tools">
+      <button class="icon-btn" id="btn-search" title="Search the book (press /)" aria-label="Search">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </button>
+      <button class="icon-btn" id="btn-random" title="Open a page at random" aria-label="Random story">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+      </button>
+      <button class="icon-btn" id="btn-settings" title="Reading settings" aria-label="Reading settings">
+        <svg viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2.3"/><circle cx="10" cy="17" r="2.3"/></svg>
+      </button>
+      <button class="icon-btn burger" id="btn-menu" aria-label="Menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="readbar"><i id="readbar"></i></div>
+</header>
+
+<main id="main"></main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <p class="fq">“Every factory, every office, every village has its own quiet chronicler — someone who watches, remembers, and eventually tells the story with a smile.”</p>
+      <p><strong>Beyond the Blueprint — Factory Wit &amp; Wisdom</strong> · Written by Girish Narain Mishra · Foreword by Sri V. S. Sastree</p>
+      <p>105 stories · 12 themes · Illustrated edition</p>
+    </div>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="#/contents">Contents</a>
+      <a href="#/read">Start reading</a>
+      <a href="#/quiz">Take a quiz</a>
+      <a href="#/library">My shelf</a>
+      <a href="#/author">About the author</a>
+      <a href="#/about">About the book</a>
+    </nav>
+  </div>
+</footer>
+
+<div class="scrim" id="scrim"></div>
+
+<aside class="panel" id="panel" aria-label="Reading settings" aria-hidden="true">
+  <h3>Reading settings
+    <button class="icon-btn" id="panel-close" aria-label="Close">
+      <svg viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg>
+    </button>
+  </h3>
+
+  <div class="grp">
+    <label>Page tone</label>
+    <div class="seg" id="seg-theme" role="group">
+      <button data-theme="paper">Paper</button>
+      <button data-theme="sepia">Sepia</button>
+      <button data-theme="night">Night</button>
+    </div>
+  </div>
+
+  <div class="grp">
+    <label>Text size</label>
+    <div class="seg" id="seg-size" role="group">
+      <button data-size="s">Small</button>
+      <button data-size="m">Medium</button>
+      <button data-size="l">Large</button>
+      <button data-size="xl">XL</button>
+    </div>
+  </div>
+
+  <div class="grp">
+    <label>Jump to a theme</label>
+    <div class="mini" id="panel-parts"></div>
+  </div>
+
+  <div class="grp">
+    <label>Progress</label>
+    <p style="font-size:.86rem;color:var(--ink-soft);margin:.2rem 0 .8rem" id="panel-progress"></p>
+    <button class="btn btn-o btn-s" id="btn-reset" style="width:100%">Reset reading progress</button>
+  </div>
+</aside>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/book.js"></script>
+<script src="assets/js/quiz.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

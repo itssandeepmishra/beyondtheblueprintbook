@@ -1,0 +1,13 @@
+{
+  "name": "Beyond the Blueprint — Factory Wit & Wisdom",
+  "short_name": "Beyond the Blueprint",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f6efe1",
+  "theme_color": "#14304e",
+  "description": "105 illustrated stories from the shop floor, the corner office and the village.",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "assets/img/og-cover.jpg", "sizes": "512x512", "type": "image/jpeg" }
+  ]
+}
